@@ -1,0 +1,8 @@
+.day {
+    display: flex;
+    justify-content: center;
+}
+.temp-of-day {
+    display: flex;
+    justify-content: center;
+}

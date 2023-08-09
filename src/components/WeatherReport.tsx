@@ -1,6 +1,6 @@
 import WeatherOfDay from './WeatherOfDay'
 import "./WeatherReport.css";
-
+import "./responsive.css";
 
 const WeatherReport: React.FC<{ weather: any }> = (props) => {
     console.log(props.weather)

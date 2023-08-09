@@ -1,5 +1,5 @@
 import "./WeatherOfDay.css"
-
+import "./responsive.css"
 
 const WeatherOfDay: React.FC<{ day: string, condition_img: string, temp: string }> = (props) => {
     return (

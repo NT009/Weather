@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./WeatherForm.css"
+import "./responsive.css"
+
+
 const WeatherForm: React.FC<{ Formdata: (text: string) => void }> = (props) => {
     const [city, setCity] = useState("");
     function cityhandler(event: React.ChangeEvent<HTMLInputElement>) {
